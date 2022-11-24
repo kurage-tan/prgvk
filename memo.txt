@@ -1,0 +1,15 @@
+directry configuration draft
+fmt
+include
+lib
+mod
+01hw
+02ipc
+03thrd
+04comp
+05math
+06vk_dev
+07vk_res
+08vk_cmd
+09vk_pline
+10vk_rpass
