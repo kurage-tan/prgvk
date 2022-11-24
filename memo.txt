@@ -1,9 +1,10 @@
-directry configuration draft
-fmt
+directry config draft
+fmt --- I have to write the license note. should I copy it...
 include
 lib
 mod
-01hw
+res --- put the dummy file
+01hw --- I've finished chapter 01. OK!
 02ipc
 03thrd
 04comp
