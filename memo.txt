@@ -1,12 +1,31 @@
 directry config draft
-fmt --- I have to write the license note. should I copy it...
+fmt --- i have to write the license note. should i copy it...
 include
 lib
+	jf
+		error sound util math vk
 mod
 res --- put the dummy file
-01hw --- I've finished chapter 01. OK!
+01hw	done.
 02ipc
+	fork
+	vfork
+	pipe
+	kill
+	mmap
+	fifo -- sender and receiver
+	race_condition -- char-at-a-time smaple >>> wait functions, which is made by signaling
+	message-queue -- sender and receiver, which is used posix message queue
+	
 03thrd
+	thread -- various thtreading... thread, jthread, [](){}, function object, mmm...
+	atomic and future 
+	concurrent -- atomic variable's sample --> measure time to see how fast
+	race_condition -- thread version --> char-at-a-time thread version
+	barrier -- show process flow
+	semaphore sample --> should i remake it... >>> ball bounce sample
+		ball, wall, and main... show it later 
+	
 04comp
 05math
 06vk
