@@ -6,7 +6,7 @@ lib
 		error sound util math vk
 mod
 res --- put the dummy file
-01hw	done.
+01hw	--> separate low implementations from wave 
 02ipc
 	fork	done.
 	vfork	done.
