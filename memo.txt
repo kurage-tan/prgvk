@@ -8,14 +8,13 @@ mod
 res --- put the dummy file
 01hw	done.
 02ipc
-	fork
-	vfork
-	pipe
-	kill
-	mmap
-	fifo -- sender and receiver
-	race_condition -- char-at-a-time smaple >>> wait functions, which is made by signaling
-	message-queue -- sender and receiver, which is used posix message queue
+	fork	done.
+	vfork	done.
+	pipe	done.
+	kill	done.
+	mmap --> read ppm image file, and then show it
+	fifo	done.
+	race_condition done.
 	
 03thrd
 	thread -- various thtreading... thread, jthread, [](){}, function object, mmm...
