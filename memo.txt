@@ -15,6 +15,7 @@ res --- put the dummy file
 	mmap --> read ppm image file, and then show it
 	fifo	done.
 	race_condition done.
+	shmem --> add
 	
 03thrd
 	thread -- various thtreading... thread, jthread, [](){}, function object, mmm...
