@@ -12,21 +12,19 @@ res --- put the dummy file
 	vfork	done.
 	pipe	done.
 	kill	done.
-	mmap --> read ppm image file, and then show it
+	mmap 	done.
 	fifo	done.
 	race_condition done.
 	shmem --> add
 	
 03thrd
-	thread -- various thtreading... thread, jthread, [](){}, function object, mmm...
-	atomic and future 
-	concurrent -- atomic variable's sample --> measure time to see how fast
-	race_condition -- thread version --> char-at-a-time thread version
-	barrier -- show process flow
-	semaphore sample --> should i remake it... >>> ball bounce sample
-		ball, wall, and main... show it later 
+	thread 	 	done.
+	atomic and future 	done.
+	concurrent 		done.
+	barrier 	done.
+	semaphore sample --> should i remake it... >>> ball bounce sample: output (x, y) to the terminal
 	
-04comp
+04comp --> ball sample: bounce -> 2D 
 05math
 06vk
 	  01dev
