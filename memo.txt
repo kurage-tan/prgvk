@@ -22,7 +22,7 @@ res --- put the dummy file
 	atomic and future 	done.
 	concurrent 		done.
 	barrier 	done.
-	semaphore sample --> should i remake it... >>> ball bounce sample: output (x, y) to the terminal
+	counting_semaphore --> ball sample: output (x, y) to the terminal
 	
 04comp --> ball sample: bounce -> 2D 
 05math
