@@ -3,29 +3,23 @@ fmt --- i have to write the license note. should i copy it...
 include
 lib
 	jf
-		error sound util math vk
+		error
+		sound
+		util
+		graphics
+		vk
 mod
 res --- put the dummy file
-01hw	--> separate low implementations from wave 
-02ipc
-	fork	done.
-	vfork	done.
-	pipe	done.
-	kill	done.
-	mmap 	done.
-	fifo	done.
-	race_condition done.
-	shmem --> add
-	
-03thrd
-	thread 	 	done.
-	atomic and future 	done.
-	concurrent 		done.
-	barrier 	done.
-	counting_semaphore --> ball sample: output (x, y) to the terminal
-	
-04comp --> ball sample: bounce -> 2D 
+01hw	done.
+02ipc 	done.
+03thrd	done.
+04comp 	done.
 05math
+	glfw 		>> add pcm wave player (using threads)
+	wayland
+		src		
+		test	>> test tuple (point, vector) color, canvas, and matrix, etc.
+		
 06vk
 	  01dev
 	  02res
